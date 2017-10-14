@@ -42,11 +42,4 @@ public class UrlUtils {
         return domain;
     }
 
-    public static String adjustUrl(String url) {
-        if (url.contains("http://")) {
-            return url;
-        }
-        return "http://" + url;
-    }
-
 }

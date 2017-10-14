@@ -33,7 +33,7 @@ public class Jianshu implements Parser<Article> {
         String author = document.select("span.name").text();
         article.setAuthor(author);
         String content = document.select("div.show-content").html();
-        content = content.replaceAll("<img", "<img class=\"ui centered image\" width=\"100%\"");
+        content = content.replaceAll("<img", "<img class=\"ui centered image\" ");
         content = content.replaceAll("<table>", "<table class='ui table'>");
         article.setContent(content);
         Matcher matcher = pattern.matcher(content);

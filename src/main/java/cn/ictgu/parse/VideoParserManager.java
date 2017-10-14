@@ -24,13 +24,9 @@ public class VideoParserManager implements ParserManager {
     public VideoParserManager() {
         parserMap = new HashMap<>();
         parserMap.put("le.com", new Letv());
-        parserMap.put("panda.tv", new Panda());
         parserMap.put("weixin.qq.com", new Weixin());
         parserMap.put("jianshu.com", new Jianshu());
-        parserMap.put("youku.com", new Youku());
-        parserMap.put("iqiyi.com", new Iqiyi());
         parserMap.put("v.qq.com", new Tencent());
-        parserMap.put("v.youku.com", new Youku());
     }
 
     /**

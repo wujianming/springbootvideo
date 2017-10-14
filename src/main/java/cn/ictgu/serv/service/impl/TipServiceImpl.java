@@ -1,7 +1,8 @@
-package cn.ictgu.serv.service;
+package cn.ictgu.serv.service.impl;
 
 import cn.ictgu.serv.mapper.TipMapper;
 import cn.ictgu.serv.model.Tip;
+import cn.ictgu.serv.service.TipService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

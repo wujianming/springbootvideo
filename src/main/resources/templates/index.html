@@ -142,38 +142,6 @@
 
         <div class="ui hidden divider"></div>
 
-
-        <div class="row relative">
-            <h3 class="ui dividing header red">
-                <i class="tv icon item"></i>熊猫TV
-            </h3>
-            <button class="ui mini red button right-absolute refresh" value="12"><i class="refresh icon"></i>换一批
-            </button>
-        </div>
-
-        <div class="ui six column doubling grid">
-
-            <div th:class="${iterStat.index} < 12 ? 'column videoItem' : 'videoItem'"
-                 th:each="live, iterStat:${lives}">
-                <div class="ui fluid link card" th:if="${iterStat.index} < 12">
-                    <a class="image videoUrl" th:href="@{/view(u=${live.value})}">
-                        <img class="videoImage" th:src="${live.image}" alt=""/>
-                    </a>
-                    <div class="extra content">
-                        <a class="ui teal videoTitle" th:text="${live.title}">直播</a>
-                    </div>
-                </div>
-
-                <div th:if="${iterStat.index} >= 12" hidden>
-                    <ul class="videoImage">[[${live.image}]]</ul>
-                    <ul class="videoTitle">[[${live.title}]]</ul>
-                    <a class="videoUrl" th:href="@{/view(u=${live.value})}"></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="ui hidden divider"></div>
-
         <div class="row relative">
             <h3 class="ui dividing header red">
                 <i class="tv icon item"></i>热血动漫

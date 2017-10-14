@@ -1,4 +1,4 @@
-package cn.ictgu.serv.service;
+package cn.ictgu.serv.service.impl;
 
 import cn.ictgu.bean.response.SimpleSource;
 import cn.ictgu.bean.response.Tag;
@@ -8,6 +8,7 @@ import cn.ictgu.serv.mapper.UserMapper;
 import cn.ictgu.serv.model.Hub;
 import cn.ictgu.serv.model.User;
 import cn.ictgu.serv.model.mix.HubItemHubUser;
+import cn.ictgu.serv.service.SeeService;
 import cn.ictgu.tools.TimeUtils;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

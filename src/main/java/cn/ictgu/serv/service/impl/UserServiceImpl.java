@@ -1,7 +1,8 @@
-package cn.ictgu.serv.service;
+package cn.ictgu.serv.service.impl;
 
 import cn.ictgu.serv.mapper.UserMapper;
 import cn.ictgu.serv.model.User;
+import cn.ictgu.serv.service.UserService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;

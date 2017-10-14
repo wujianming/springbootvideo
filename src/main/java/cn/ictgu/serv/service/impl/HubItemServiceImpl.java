@@ -1,10 +1,11 @@
-package cn.ictgu.serv.service;
+package cn.ictgu.serv.service.impl;
 
 import cn.ictgu.constant.ExceptionEnum;
 import cn.ictgu.exception.AnyException;
 import cn.ictgu.serv.mapper.HubItemMapper;
 import cn.ictgu.serv.mapper.HubMapper;
 import cn.ictgu.serv.model.HubItem;
+import cn.ictgu.serv.service.HubItemService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;

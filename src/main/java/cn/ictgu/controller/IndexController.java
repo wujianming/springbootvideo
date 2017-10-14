@@ -35,19 +35,12 @@ public class IndexController {
         List<Video> tvHots = redisSourceManager.getVideosByKeyAndTag(redisSourceManager.VIDEO_PREFIX_HOME_TV_KEY, TAGS[0]);
         List<Video> animeHots = redisSourceManager.getVideosByKeyAndTag(redisSourceManager.VIDEO_PREFIX_HOME_CARTOON_KEY, TAGS[0]);
         List<Video> movies = redisSourceManager.getVideosByKeyAndTag(redisSourceManager.VIDEO_PREFIX_HOME_MOVIE_KEY, TAGS[0]);
-        List<Video> lives = redisSourceManager.getVideosByKeyAndTag(redisSourceManager.VIDEO_PREFIx_HOME_LIVE_KEY, TAGS[1]);
         model.addAttribute("carouselPics", carouselPics);
         model.addAttribute("recommends", recommends);
         model.addAttribute("tvHots", tvHots);
         model.addAttribute("animeHots", animeHots);
-        model.addAttribute("lives", lives);
         model.addAttribute("movies", movies);
         return "index";
-    }
-
-    @GetMapping("/videos")
-    public String videos(){
-        return "videos";
     }
 
     /**

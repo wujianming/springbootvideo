@@ -1,7 +1,8 @@
-package cn.ictgu.serv.service;
+package cn.ictgu.serv.service.impl;
 
 import cn.ictgu.serv.mapper.AttentionMapper;
 import cn.ictgu.serv.model.Attention;
+import cn.ictgu.serv.service.AttentionService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
