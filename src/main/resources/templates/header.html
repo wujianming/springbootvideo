@@ -1,39 +1,39 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
 <!-- following menu-->
-<div class="ui mini fixed inverted menu" th:fragment="fmenu">
+<div class="ui mini fixed borderless inverted menu" th:fragment="fmenu">
     <div class="ui container">
         <a href="/" class="header item">
             <img class="logo" src="/images/atm.png">
         </a>
-        <a href="/" class="item">首页</a>
-        <a href="/see" class="item">动态</a>
-        <a href="/search" class="item">搜索</a>
-        <a href="/parse" class="item">解析</a>
-        <a href="/tip" class="item">赞赏</a>
+        <a href="/" class="item"><i class="home icon"></i> 首页</a>
+        <a href="/see" class="item"><i class="list layout icon"></i> 动态</a>
+        <a href="/search" class="item"><i class="search icon"></i> 搜索</a>
+        <a href="/parse" class="item"><i class="world icon"></i> 解析</a>
+        <a href="/tip" class="item"><i class="diamond icon"></i> 赞赏</a>
         <div class="right item">
-            <a class="ui red button" th:href="@{/login}" th:unless="${#httpServletRequest.remoteUser}">登录</a>
-            <a class="ui red button" th:href="@{/user}" th:if="${#httpServletRequest.remoteUser}">个人中心</a>
+            <a class="ui red circular button" th:href="@{/login}" th:unless="${#httpServletRequest.remoteUser}">登录</a>
+            <a class="ui red circular button" th:href="@{/user}" th:if="${#httpServletRequest.remoteUser}">个人中心</a>
         </div>
     </div>
 </div>
 
 <!-- Sidebar Menu -->
-<div class="ui mini vertical inverted sidebar menu" th:fragment="smenu">
-    <a href="/" class="item">首页</a>
-    <a href="/see" class="item">动态</a>
-    <a href="/search" class="item">搜索</a>
-    <a href="/parse" class="item">解析</a>
+<div class="ui mini vertical borderless inverted sidebar menu" th:fragment="smenu">
+    <a href="/" class="item"><i class="home icon"></i> 首页</a>
+    <a href="/see" class="item"><i class="list layout icon"></i> 动态</a>
+    <a href="/search" class="item"><i class="search icon"></i> 搜索</a>
+    <a href="/parse" class="item"><i class="diamond icon"></i> 解析</a>
 </div>
 
 <!-- pointing menu -->
-<div class="ui mini secondary pointing menu" th:fragment="pmenu">
+<div class="ui mini secondary borderless pointing menu" th:fragment="pmenu">
     <a class="toc item">
         <i class="large sidebar icon red"></i>
     </a>
     <div class="right item">
-        <a class="ui teal button" th:href="@{/login}" th:unless="${#httpServletRequest.remoteUser}">登录</a>
-        <a class="ui teal red button" th:href="@{/user}" th:if="${#httpServletRequest.remoteUser}">个人中心</a>
+        <a class="ui red circular button" th:href="@{/login}" th:unless="${#httpServletRequest.remoteUser}">登录</a>
+        <a class="ui red circular button" th:href="@{/user}" th:if="${#httpServletRequest.remoteUser}">个人中心</a>
     </div>
 </div>
 </body>

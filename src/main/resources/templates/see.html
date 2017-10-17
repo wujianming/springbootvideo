@@ -150,10 +150,10 @@
     /** 渲染列表内容 */
     function renderList(data) {
         if (data.length < 15) {
-            loadMore.attr('class', 'fluid disabled ui button');
+            loadMore.attr('class', 'fluid disabled circular ui button');
             loadMore.text('全部加载完毕');
         } else {
-            loadMore.attr('class', 'fluid ui button');
+            loadMore.attr('class', 'fluid circular ui button');
             loadMore.text('加载更多');
         }
         for (var i = 0; i < data.length; i++) {
