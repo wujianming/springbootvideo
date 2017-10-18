@@ -766,7 +766,6 @@ struts
 sql注入
 推送
 动态加载
-cli
 elk
 入门-编程语言
 ajax跨域
@@ -778,7 +777,6 @@ elixir
 ssr
 计算机
 内存分配
-英语
 单点登录
 cocoa-touch
 黑客
@@ -790,7 +788,6 @@ goagent
 gentoo
 微信浏览器
 commonjs
-笔记
 线程池
 脚本
 retrofit
@@ -833,7 +830,6 @@ php-php进阶
 wtforms
 supervisor
 appstore
-键盘
 architecture
 支付
 证书
@@ -845,7 +841,6 @@ shell-script
 依赖注入
 页面缓存
 openresty
-笔试
 自动化运维
 vim插件
 numpy
@@ -907,7 +902,6 @@ require.js
 autodesk-forge
 linux入门
 gunicorn
-co
 gacui
 xdebug
 自动部署
