@@ -64,7 +64,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      * 自定义 QQ登录 过滤器
      */
     private QQAuthenticationFilter qqAuthenticationFilter(){
-        QQAuthenticationFilter authenticationFilter = new QQAuthenticationFilter("/login/manager");
+        QQAuthenticationFilter authenticationFilter = new QQAuthenticationFilter("/login/qq");
         SimpleUrlAuthenticationSuccessHandler successHandler = new SimpleUrlAuthenticationSuccessHandler();
         successHandler.setAlwaysUseDefaultTargetUrl(true);
         successHandler.setDefaultTargetUrl("/user");

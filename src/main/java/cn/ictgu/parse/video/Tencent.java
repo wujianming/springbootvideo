@@ -130,7 +130,7 @@ public class Tencent implements Parser<Video> {
         video.setPlayUrl(firstPlayUrl);
         video.setImage("");
         video.setTitle(title);
-        video.setType("qq");
+        video.setType("manager");
         video.setOther(size);
     }
 

@@ -22,7 +22,7 @@ public class QQAuthenticationFilter extends AbstractAuthenticationProcessingFilt
     /**
      * 获取 Token 的 API
      */
-    private final static String accessTokenUri = "https://graph.manager.com/oauth2.0/token";
+    private final static String accessTokenUri = "https://graph.qq.com/oauth2.0/token";
 
     /**
      * grant_type 由腾讯提供
@@ -47,7 +47,7 @@ public class QQAuthenticationFilter extends AbstractAuthenticationProcessingFilt
     /**
      * 获取 OpenID 的 API 地址
      */
-    private final static String openIdUri = "https://graph.manager.com/oauth2.0/me?access_token=";
+    private final static String openIdUri = "https://graph.qq.com/oauth2.0/me?access_token=";
 
     /**
      * 获取 token 的地址拼接

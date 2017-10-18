@@ -33,7 +33,7 @@ public class QQAuthenticationManager implements AuthenticationManager {
     /**
      * 获取 QQ 登录信息的 API 地址
      */
-    private final static String userInfoUri = "https://graph.manager.com/user/get_user_info";
+    private final static String userInfoUri = "https://graph.qq.com/user/get_user_info";
 
     /**
      * 获取 QQ 用户信息的地址拼接
