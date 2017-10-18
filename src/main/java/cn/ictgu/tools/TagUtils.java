@@ -6,12 +6,11 @@ import cn.ictgu.tools.tag.TagNode;
 import lombok.extern.log4j.Log4j2;
 import org.jsoup.Jsoup;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
+import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.stereotype.Component;
-import org.springframework.util.ResourceUtils;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
@@ -32,8 +31,8 @@ public class TagUtils implements InitializingBean {
 
     @Override
     public void afterPropertiesSet() throws Exception {
-        File tagsFile = ResourceUtils.getFile("classpath:tags.txt");
-        BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(tagsFile)));
+        ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+        BufferedReader br = new BufferedReader(new InputStreamReader(resolver.getResource("tags.txt").getInputStream()));
         String tag = br.readLine();
         while (tag != null) {
             if (!put(tag)) {
