@@ -4,7 +4,6 @@ public enum ExceptionEnum {
 
     // 系统级别异常
     NOT_AUTHTICATION(401, "没有权限！"),
-    HTTP_REQUEST_ERROR(402, "HTTP 请求失败！"),
 
     // 业务级别异常 10000 ~ 20000
     HUB_ERROR(10001, "仓库不存在！"),

@@ -47,7 +47,7 @@ public class VideoAPI {
      */
     @GetMapping("/api/qq/{file}/{index}")
     public Episode qqVideo(@PathVariable("file") String fileName, @PathVariable("index") Integer index) {
-        return ((Tencent) parseManager.getParser("v.qq.com")).parsePart(fileName, index);
+        return ((Tencent) parseManager.getParser("v.manager.com")).parsePart(fileName, index);
     }
 
 }

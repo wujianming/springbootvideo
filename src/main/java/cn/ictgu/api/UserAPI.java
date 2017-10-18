@@ -1,7 +1,7 @@
 package cn.ictgu.api;
 
-import cn.ictgu.serv.model.User;
-import cn.ictgu.serv.service.UserService;
+import cn.ictgu.service.model.User;
+import cn.ictgu.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

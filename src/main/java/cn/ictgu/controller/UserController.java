@@ -1,10 +1,10 @@
 package cn.ictgu.controller;
 
-import cn.ictgu.serv.model.Hub;
-import cn.ictgu.serv.model.User;
-import cn.ictgu.serv.service.AttentionService;
-import cn.ictgu.serv.service.HubService;
-import cn.ictgu.serv.service.UserService;
+import cn.ictgu.service.model.Hub;
+import cn.ictgu.service.model.User;
+import cn.ictgu.service.AttentionService;
+import cn.ictgu.service.HubService;
+import cn.ictgu.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

@@ -2,8 +2,8 @@ package cn.ictgu.api;
 
 
 import cn.ictgu.bean.ResponseBean;
-import cn.ictgu.serv.model.User;
-import cn.ictgu.serv.service.AttentionService;
+import cn.ictgu.service.model.User;
+import cn.ictgu.service.AttentionService;
 import lombok.AllArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

@@ -43,6 +43,13 @@
                     </h3>
                 </div>
 
+                <p></p>
+
+                <div class="ui mini teal labels">
+                    <i class="tag icon"></i> 标签：
+                    <a class="ui label" th:each="tag : ${source.tags}" th:text="${tag.name}"></a>
+                </div>
+
                 <div class="hidden" id="articleImage" th:data-value="${source.image}"></div>
 
                 <div class="hidden" id="articleUrl" th:data-value="${source.value}"></div>

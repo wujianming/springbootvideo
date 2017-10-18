@@ -1,7 +1,7 @@
 package cn.ictgu.api;
 
-import cn.ictgu.serv.model.FriendLink;
-import cn.ictgu.serv.service.FriendLinkService;
+import cn.ictgu.service.model.FriendLink;
+import cn.ictgu.service.FriendLinkService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

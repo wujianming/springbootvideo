@@ -1,6 +1,6 @@
 package cn.ictgu.controller;
 
-import cn.ictgu.serv.service.SeeService;
+import cn.ictgu.service.SeeService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

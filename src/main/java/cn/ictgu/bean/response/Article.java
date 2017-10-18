@@ -1,6 +1,9 @@
 package cn.ictgu.bean.response;
 
+import cn.ictgu.bean.TagBean;
 import lombok.Data;
+
+import java.util.List;
 
 /**
  * 文章
@@ -34,5 +37,8 @@ public class Article {
 
     // 提供方
     private String provider;
+
+    // 标签列表
+    private List<TagBean> tags;
 
 }

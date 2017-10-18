@@ -1,7 +1,7 @@
 package cn.ictgu.api;
 
 import cn.ictgu.bean.response.SimpleSource;
-import cn.ictgu.serv.service.SeeService;
+import cn.ictgu.service.SeeService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

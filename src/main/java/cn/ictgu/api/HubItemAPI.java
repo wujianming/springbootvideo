@@ -1,9 +1,9 @@
 package cn.ictgu.api;
 
 import cn.ictgu.bean.ResponseBean;
-import cn.ictgu.serv.model.HubItem;
-import cn.ictgu.serv.model.User;
-import cn.ictgu.serv.service.HubItemService;
+import cn.ictgu.service.model.HubItem;
+import cn.ictgu.service.model.User;
+import cn.ictgu.service.HubItemService;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
