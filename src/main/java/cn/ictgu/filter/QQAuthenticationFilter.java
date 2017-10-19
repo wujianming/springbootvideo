@@ -42,7 +42,7 @@ public class QQAuthenticationFilter extends AbstractAuthenticationProcessingFilt
     /**
      * redirect_uri 腾讯回调地址
      */
-    private final static String redirectUri = "http://www.ictgu.cn/login/manager";
+    private final static String redirectUri = "http://www.ictgu.cn/login/qq";
 
     /**
      * 获取 OpenID 的 API 地址
