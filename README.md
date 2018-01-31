@@ -3,7 +3,7 @@ What's this？
 
 Any Video 是基于 Spring Boot 开发的应用，利用网络爬虫技术，实时解析互联网资源，可对所有资源分类收藏，并分享！
 
-演示地址： https://www.ictgu.cn
+演示地址： https://anoyi.com
 
 ![首页](http://upload-images.jianshu.io/upload_images/3424642-c2983ce316b60629.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
